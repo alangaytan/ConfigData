@@ -1,0 +1,10 @@
+server:
+  port: ${PORT:${SERVER_PORT:0}}
+spring:
+  data:
+    mongodb:
+      host: 172.20.3.121
+      port: 5005
+      username: admin
+      password: admin
+      database: linea
